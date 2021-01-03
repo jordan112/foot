@@ -19,9 +19,12 @@
   "scripts": {
     "start": "yarn run build",
     "build": "tsc",
+    "build:watch": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --collect-coverage",
+    "test:cypress": "$(yarn bin)/cypress open",
+    "test:cypress:run": "$(yarn bin)/cypress run",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   }
