@@ -15,10 +15,10 @@ I was tired of doing all of the base setup and config work to establish a node p
 
 ## Scripts
 
-1.  `yarn` - install and update (minor versions) of all packages
+1.  `yarn` - install (and update minor versions) of all packages
 1.  `yarn build` - build TypeScript project
 1.  `yarn test` - run unit tests
 1.  `yarn test:watch` - run unit tests while developing
 1.  `yarn test:coverage` - run unit tests but also with code coverage
-1.  `yarn lint` - run esLinting
-
+1.  `yarn lint` - run esLint to lint project
+1.  `yarn lint:fix` - run esLint and fix any issues

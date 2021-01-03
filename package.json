@@ -5,6 +5,7 @@
   "author": "Shane Jordan <jordan.shane@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.19",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
     "cypress": "^6.2.0",
