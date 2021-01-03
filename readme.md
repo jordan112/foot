@@ -2,6 +2,9 @@
 
 An Opinionated boilerplate structure for Node.js with TypesScript and all the trimmings built using VSCode
 
+![Image of foot]
+(https://i1.wp.com/www.adtothebone.com/blogpix/obliteratingfoot62470.jpg?w=625)
+
 I was tired of doing all of the base setup and config work to establish a node project
 
 # use this Repo to start your own project
