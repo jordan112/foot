@@ -1,20 +1,30 @@
 # Foot - my project needs a foot to stand on
 
-An Opinionated boilerplate structure for Node.js with TypesScript and all the trimmings built using VSCode
+A boilerplate project and structure for a Node.js with TypesScript and all the trimming such as EsLint, Jest, Cypress, etc.
 
 ![Image of foot](https://www.pikpng.com/pngl/m/172-1724506_daily-kos-monty-python-foot-png-clipart.png)
 
 I was tired of doing all of the base setup and config work to establish a node project
 
-# use this Repo to start your own project
-
-    npx degit jordan112/foot#main my-new-node-app
+# start your own project
 
 ## Getting Started
 
+Get a clone of this project named correctly using Degit
+
+    npx degit jordan112/foot#main my-new-node-app
+
+Install all the dependencies
+
     yarn
 
+Build and start the project
+
     yarn start
+
+Or if you want one big super command line:
+
+    npx degit jordan112/foot#main my-new-node-app && cd $_ && yarn && yarn start
 
 ## Technologies all setup and configured and ready to go
 
@@ -25,15 +35,23 @@ I was tired of doing all of the base setup and config work to establish a node p
 1. Yarn Workspaces (https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/)
 1. Jest
 1. Cypress
+1. TypeDoc.org
+1. Prettier
+1. Husky
 
 ## Scripts
 
-1.  `yarn` - install (and update minor versions) of all packages
-1.  `yarn build` - build TypeScript project
-1.  `yarn test` - run unit tests
-1.  `yarn test:watch` - run unit tests while developing
-1.  `yarn test:coverage` - run unit tests but also with code coverage
-1.  `yarn test:cypress` - open cypress automated tests
-1.  `yarn test:cypress:run` - run cypress automated tests (command line only)
-1.  `yarn lint` - run esLint to lint project
-1.  `yarn lint:fix` - run esLint and fix any issues
+- `yarn` - install (and update minor versions) of all packages
+- `yarn start` - Build and Start the project
+- `yarn build` - build TypeScript project
+- `yarn test` - run unit tests
+- `yarn test:watch` - run unit tests while developing
+- `yarn test:coverage` - run unit tests but also with code coverage
+- `yarn test:cypress` - open cypress automated tests
+- `yarn test:cypress:run` - run cypress automated tests (command line only)
+- `yarn lint` - run esLint to lint project
+- `yarn lint:fix` - run esLint and fix any issues
+- `yarn format:prettier` - run Prettier to format project
+- `yarn format:prettier:fix` - run Prettier to format project and auto correct
+- `yarn docs` - generate docs using TypeDoc
+- `yarn release` - Release a semantic version of the project
