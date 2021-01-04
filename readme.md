@@ -10,8 +10,10 @@ I was tired of doing all of the base setup and config work to establish a node p
 
 ## Getting Started
 
-   yarn
-   yarn start
+    yarn
+
+    yarn start
+
 ## Technologies all setup and configured and ready to go
 
 1. Node.js
@@ -29,5 +31,7 @@ I was tired of doing all of the base setup and config work to establish a node p
 1.  `yarn test` - run unit tests
 1.  `yarn test:watch` - run unit tests while developing
 1.  `yarn test:coverage` - run unit tests but also with code coverage
+1.  `yarn test:cypress` - open cypress automated tests
+1.  `yarn test:cypress:run` - run cypress automated tests (command line only)
 1.  `yarn lint` - run esLint to lint project
 1.  `yarn lint:fix` - run esLint and fix any issues
