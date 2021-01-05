@@ -2,7 +2,7 @@
 
 A boilerplate project and structure for a Node.js with TypesScript and all the trimming such as EsLint, Jest, Cypress, etc.
 
-![Image of foot](https://www.pikpng.com/pngl/m/172-1724506_daily-kos-monty-python-foot-png-clipart.png)
+![Image of foot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwxY9RAzNdV7Bt6DQk8BBuLgW-iyQ-gmr4g&usqp=CAU)
 
 I was tired of doing all of the base setup and config work to establish a node project
 
