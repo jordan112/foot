@@ -26,9 +26,12 @@ export default {
   coverageDirectory: "coverage",
 
   // An array of regexp pattern strings used to skip coverage collection
-  // coveragePathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
+  coveragePathIgnorePatterns: [
+    "/node_modules/",
+    "dist",
+    "docs",
+    "cypress"
+  ],
 
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: "v8",
@@ -85,7 +88,10 @@ export default {
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   modulePathIgnorePatterns: [
-    'cypress'
+    'cypress',
+    'dist',
+    'docs',
+    'coverage'
   ],
 
   // Activates notifications for test results
