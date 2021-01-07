@@ -31,7 +31,7 @@ Or if you want one big super command line that does it all
 1. Yarn Workspaces (https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/)
 1. Jest - Unit Testing framework
 1. Cypress - Automated E2E testing
-1. TypeDoc.org - for auto documentating 
+1. TypeDoc.org - for auto documentating
 1. Prettier - consistent formatting
 1. Husky - hooks for pre-commiting code to ensure linting and unit tests pass
 
@@ -51,3 +51,7 @@ Or if you want one big super command line that does it all
 - `yarn format:prettier:fix` - run Prettier to format project and auto correct
 - `yarn docs` - generate docs using TypeDoc
 - `yarn release` - Release a semantic version of the project
+
+## Update all of the dependencies
+
+yarn upgrade
